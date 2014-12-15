@@ -24,3 +24,6 @@ print list[0]
 print list[4]
 
 Extra Credit for SI 106
+def alpha_order(list):
+    return sorted(list)
+print alpha_order(list2)
