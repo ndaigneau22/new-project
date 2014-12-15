@@ -10,7 +10,9 @@ def only_even(x):
     return new_list
 
 print only_even(list1)
-            
+
+def keep_even(list):
+    return [num for num in list if num%2==0]
         
 
 #return list in alphabetical order
